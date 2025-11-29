@@ -1,0 +1,5 @@
+com\mycompany\pert5_zain\Pert5_zain.class
+com\mycompany\pert5_zain\repository\MahasiswaRepository.class
+com\mycompany\pert5_zain\repository\ModelMahasiswa.class
+com\mycompany\pert5_zain\model\MahasiswaModel.class
+com\mycompany\pert5_zain\controller\MahasiswaController.class

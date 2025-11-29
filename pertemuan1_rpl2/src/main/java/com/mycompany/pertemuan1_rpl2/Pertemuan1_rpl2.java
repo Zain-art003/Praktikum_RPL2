@@ -1,0 +1,44 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.pertemuan1_rpl2;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Zain
+ */
+public class Pertemuan1_rpl2 {
+
+    public static void main(String[] args) {
+        int a = 5;
+        int b = 10;
+        int hasil = a+b;
+        
+        System.out.println("Hasil Akhir Adalah ; " + hasil);
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Masukkan Nama Anda : ");
+        
+        String nama = input.nextLine();
+        
+        System.out.println("Hallo, " + nama);
+        
+        for (int i = 0; i <=10; i++){
+            System.out.println("Angka ke-" +i);
+        }
+        
+        int angka = 3;
+           
+           if(angka > 0) {
+               System.out.println("Angka positif");
+           } else if (angka <0) {
+               System.out.println("Angka negatif");
+           } else {
+               System.out.println("Angka nol");
+           }
+    }
+}
